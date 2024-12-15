@@ -299,7 +299,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Arduino_Nano_V3"
+			(property "Reference" "Arduino_Nano"
 				(at -7.366 3.81 0)
 				(effects
 					(font
@@ -786,7 +786,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_in line
 					(at 7.62 -27.94 180)
 					(length 2.54)
 					(name "GND"
@@ -1565,7 +1565,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 78.74) (xy 179.07 78.74)
+			(xy 184.15 106.68) (xy 187.96 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1575,7 +1575,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 64.77) (xy 124.46 67.31)
+			(xy 107.95 54.61) (xy 107.95 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1635,7 +1635,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 64.77) (xy 127 67.31)
+			(xy 110.49 54.61) (xy 110.49 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1665,7 +1665,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 99.06) (xy 158.75 99.06)
+			(xy 165.1 82.55) (xy 168.91 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1695,7 +1695,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 64.77) (xy 132.08 67.31)
+			(xy 115.57 54.61) (xy 115.57 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1715,7 +1715,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 99.06) (xy 177.8 99.06)
+			(xy 184.15 82.55) (xy 187.96 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1725,7 +1725,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 78.74) (xy 160.02 78.74)
+			(xy 165.1 106.68) (xy 168.91 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1735,7 +1735,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 64.77) (xy 129.54 67.31)
+			(xy 113.03 54.61) (xy 113.03 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1764,7 +1764,7 @@
 		(uuid "f9b3f4a1-01dc-493d-b650-8b09733dcf73")
 	)
 	(label "SCL"
-		(at 124.46 67.31 270)
+		(at 107.95 57.15 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1786,7 +1786,7 @@
 		(uuid "0ccfe130-de2a-44bd-9dea-66c71791f58d")
 	)
 	(label "GND"
-		(at 179.07 78.74 0)
+		(at 187.96 106.68 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1819,7 +1819,7 @@
 		(uuid "18cd7862-73a4-430d-94f8-148cc5f7cfda")
 	)
 	(label "D3"
-		(at 154.94 99.06 0)
+		(at 165.1 82.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1830,7 +1830,7 @@
 		(uuid "1aec9040-42c5-41e3-b294-322f97be5fc7")
 	)
 	(label "GND"
-		(at 132.08 67.31 270)
+		(at 115.57 57.15 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1841,7 +1841,7 @@
 		(uuid "37ddef53-8fba-44bf-94af-9794710c774f")
 	)
 	(label "SDA"
-		(at 127 67.31 270)
+		(at 110.49 57.15 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1896,7 +1896,7 @@
 		(uuid "afa27994-ad82-4014-99d4-c7ba71f8de93")
 	)
 	(label "GND"
-		(at 177.8 99.06 0)
+		(at 187.96 82.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1962,7 +1962,7 @@
 		(uuid "d2ff42e8-07ee-47e6-9fac-3182647ae16d")
 	)
 	(label "5V"
-		(at 129.54 67.31 270)
+		(at 113.03 57.15 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1984,7 +1984,7 @@
 		(uuid "f05c9505-1b1d-4544-af3a-bcb1262a8321")
 	)
 	(label "D4"
-		(at 156.21 78.74 0)
+		(at 165.1 106.68 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2004,7 +2004,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15141a51-ce79-402b-99d3-ae227a69c632")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR02"
 			(at 96.52 110.49 0)
 			(effects
 				(font
@@ -2055,7 +2055,7 @@
 		(instances
 			(project ""
 				(path "/f497d447-3b22-454f-a20d-31c90dc48ae0"
-					(reference "#PWR01")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -2071,7 +2071,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c908e90-785a-4228-987e-7d147839cb8f")
-		(property "Reference" "#FLG01"
+		(property "Reference" "#FLG02"
 			(at 92.71 112.395 0)
 			(effects
 				(font
@@ -2086,6 +2086,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -2121,7 +2122,7 @@
 		(instances
 			(project "MINIP"
 				(path "/f497d447-3b22-454f-a20d-31c90dc48ae0"
-					(reference "#FLG01")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -2137,7 +2138,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "220df1a7-2c32-49fe-958c-832753c37d8d")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR01"
 			(at 86.36 107.95 0)
 			(effects
 				(font
@@ -2188,7 +2189,7 @@
 		(instances
 			(project ""
 				(path "/f497d447-3b22-454f-a20d-31c90dc48ae0"
-					(reference "#PWR02")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -2196,7 +2197,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 171.45 78.74 180)
+		(at 180.34 106.68 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2205,7 +2206,7 @@
 		(fields_autoplaced yes)
 		(uuid "6c4ab494-1235-4bfb-b708-8a6aea813bca")
 		(property "Reference" "D2"
-			(at 173.0375 85.09 0)
+			(at 181.9275 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2213,7 +2214,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 173.0375 82.55 0)
+			(at 181.9275 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2221,7 +2222,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 78.74 0)
+			(at 180.34 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2230,7 +2231,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 171.45 78.74 0)
+			(at 180.34 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2239,7 +2240,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 171.45 78.74 0)
+			(at 180.34 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2264,7 +2265,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 162.56 99.06 270)
+		(at 172.72 82.55 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2273,15 +2274,15 @@
 		(fields_autoplaced yes)
 		(uuid "8f218c15-e9cf-4d1a-8d75-102e027964a5")
 		(property "Reference" "R1"
-			(at 162.56 92.71 90)
+			(at 172.72 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 162.56 95.25 90)
+		(property "Value" "220"
+			(at 172.72 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2289,7 +2290,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 97.282 90)
+			(at 172.72 80.772 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2298,7 +2299,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 162.56 99.06 0)
+			(at 172.72 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2307,7 +2308,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 162.56 99.06 0)
+			(at 172.72 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2405,7 +2406,7 @@
 	)
 	(symbol
 		(lib_id "minip:I2C_LCD")
-		(at 128.27 59.69 90)
+		(at 111.76 49.53 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2414,7 +2415,7 @@
 		(fields_autoplaced yes)
 		(uuid "a1a2b728-943e-4e83-97b4-7650318e6c51")
 		(property "Reference" "I2C_LCD1"
-			(at 134.62 57.7849 90)
+			(at 118.11 47.6249 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2423,7 +2424,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 134.62 59.69 90)
+			(at 118.11 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2432,7 +2433,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 59.69 0)
+			(at 111.76 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2441,7 +2442,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 59.69 0)
+			(at 111.76 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2450,7 +2451,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 128.27 59.69 0)
+			(at 111.76 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2641,7 +2642,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cfb9e3fc-109f-42cf-9bde-e607a373564a")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG01"
 			(at 92.71 106.045 0)
 			(effects
 				(font
@@ -2656,6 +2657,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -2691,7 +2693,7 @@
 		(instances
 			(project "MINIP"
 				(path "/f497d447-3b22-454f-a20d-31c90dc48ae0"
-					(reference "#FLG02")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -2772,7 +2774,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 170.18 99.06 180)
+		(at 180.34 82.55 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2781,7 +2783,7 @@
 		(fields_autoplaced yes)
 		(uuid "da3e82c0-2820-4297-864d-a634c95be799")
 		(property "Reference" "D1"
-			(at 171.7675 105.41 0)
+			(at 181.9275 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2789,7 +2791,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 171.7675 102.87 0)
+			(at 181.9275 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2797,7 +2799,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 170.18 99.06 0)
+			(at 180.34 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2806,7 +2808,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 170.18 99.06 0)
+			(at 180.34 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2815,7 +2817,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 170.18 99.06 0)
+			(at 180.34 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2840,7 +2842,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 163.83 78.74 270)
+		(at 172.72 106.68 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2849,15 +2851,15 @@
 		(fields_autoplaced yes)
 		(uuid "ecfa1435-1517-4de7-8fd6-94282405d615")
 		(property "Reference" "R2"
-			(at 163.83 72.39 90)
+			(at 172.72 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 163.83 74.93 90)
+		(property "Value" "220"
+			(at 172.72 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2865,7 +2867,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 163.83 76.962 90)
+			(at 172.72 104.902 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2874,7 +2876,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 163.83 78.74 0)
+			(at 172.72 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2883,7 +2885,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 163.83 78.74 0)
+			(at 172.72 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
