@@ -1,0 +1,66 @@
+# Compiled output files (do not version control)
+*.kicad_pcb-bak
+*.kicad_prl
+*.kicad_sch-bak
+*.kicad_wks-bak
+
+# Autosave and temporary files
+*.kicad_pcb~
+*.kicad_sch~
+*.bak
+*~
+*.tmp
+*.tmp-bak
+
+# Gerber and manufacturing outputs
+*.gbr
+*.gtp
+*.gto
+*.gts
+*.gtl
+*.drl
+*.csv
+*.rpt
+*.zip
+*.tar.gz
+
+# Simulation files
+*.cir
+*.raw
+*.log
+.spice
+*.opj
+
+# Exported BOM files
+*.csv
+*.tsv
+*.xml
+*.xlsx
+
+# User-specific KiCad settings and cache
+*.pro
+*.pro.user
+*-cache.lib
+*-cache.lib-bak
+.sym-lib-table-bak
+.fp-lib-table-bak
+
+# 3D Viewer files
+*-3D*
+
+# Other temporary/generated files
+__pycache__/
+*.pyc
+*.pyo
+*.log
+*.swp
+*.bak
+*.swo
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+.idea/
+*.iml
+*.vscode/
+*.code-workspace
